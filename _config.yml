@@ -1,0 +1,98 @@
+### GENERAL SETTINGS ###
+
+# Site settings
+title: "Yao Class Seminar"
+brand: "Yao Class Seminar"
+description: "清华大学姚班研讨会"
+baseurl: "/~stu/seminar" #important: start with /
+url: "http://group.iiis.tsinghua.edu.cn"
+
+# Build settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+    input: GFM
+    hard_wrap: false
+permalink: "/:categories/:year/:title/"
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+sass:
+    sass_dir: assets/css
+future: true
+
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "清华大学姚班研讨会"
+
+
+name_lists:
+- title: "2022年秋-2023年春"
+  lists:
+    - type: "Host"
+      names: "李嘉图"
+    - type: "AI方向"
+      names: "唐梓天 何婉榕"
+    - type: "Theory方向"
+      names: "李洲子 宋子萌"
+    - type: "Quantum和System方向"
+      names: "刘鹏宇 梅毅轩"
+    - type: "主页"
+      names: "陈江伦 吕凯风"
+- title: "2021年秋-2022年春"
+  lists:
+    - type: "Host"
+      names: "武弘勋"
+    - type: "Co-host"
+      names: "张瀚文 徐海珂"
+    - type: "零食"
+      names: "徐海珂 张瀚文 武弘勋"
+    - type: "多媒体"
+      names: "徐海珂 张瀚文 武弘勋 刘豪雄"
+    - type: "报销"
+      names: "陈通"
+    - type: "主页"
+      names: "陈江伦 吕凯风"
+- title: "2021年春"
+  lists:
+    - type: "Host"
+      names: "吕凯风"
+    - type: "Co-host"
+      names: "赵晟宇 李佳蔚"
+    - type: "零食"
+      names: "王润喆 刘豪雄 吕凯风"
+    - type: "多媒体"
+      names: "刘豪雄 王润喆"
+    - type: "报销"
+      names: "陈通"
+    - type: "主页"
+      names: "吕凯风 郑鈜壬 陈江伦"
+- title: "2020年秋"
+  lists:
+    - type: "Host"
+      names: "赵晟宇"
+    - type: "Co-host"
+      names: "董玥 吕欣 吕凯风"
+    - type: "零食"
+      names: "赵晟宇 董玥"
+    - type: "多媒体"
+      names: "赵晟宇 董玥"
+    - type: "报销"
+      names: "高敏博"
+#- "new row"
+- title: "2019年秋"
+  lists:
+    - type: "Host"
+      names: "董克凡"
+    - type: "零食"
+      names: "董克凡"
+    - type: "报销"
+      names: "韩迟"
+- title: "2018年秋"
+  lists:
+    - type: "Host"
+      names: "吕凯风"
+    - type: "零食"
+      names: "谢昌志"
+    - type: "摄像"
+      names: "李政"
+    - type: "报销"
+      names: "姚顺雨"
